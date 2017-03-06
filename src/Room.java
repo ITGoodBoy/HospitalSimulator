@@ -4,9 +4,10 @@ import java.util.Collections;
 
 public class Room {
 
+    //variables for names
     private int visitorNumber = 1;
     private int doctorNumber = 1;
-
+    //Check those who are in the room
     private boolean doctorInRoom = false;
     private boolean visitorInRoom = false;
 
